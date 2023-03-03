@@ -31,6 +31,6 @@ PrintIn("Введите ширину матрицы");
 int lenght=int.Parse(Console.ReadLine()!);
 PrintIn("Введите высоту матрицы");
 int hight=int.Parse(Console.ReadLine()!);
-int[,] matrix=new int[lenght,hight];
+int[,] matrix=new int[hight,lenght];
 FillMatrix(matrix);
 PrintMatrix(matrix);
